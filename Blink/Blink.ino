@@ -30,7 +30,7 @@ void setup() {
   int timesToBlink = 1;
   timesToBlink += 3;
   
-  for(int i = 0; i <=timesToBlink; i++){
+  while(timesToBlink > 0){
       digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
       delay(1000);                      // wait for a second
       digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
